@@ -3,45 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum | Danny Sánchez</title>
+    <title>Portafolio | Danny Sánchez</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Danny José Sánchez González</h1>
-        <p>Ingeniero en Informática | Full-Stack Developer</p>
+        <div class="container">
+            <h1>Danny José Sánchez González</h1>
+            <p>Ingeniero en Informática | Full-Stack Developer</p>
+        </div>
     </header>
 
-    <section id="sobre-mi">
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre-mi" class="container">
         <h2>Sobre mí</h2>
-        <p>Ingeniero en informática egresado de UNET con experiencia en desarrollo **full-stack**. Especializado en PHP, Laravel, WordPress, MySQL, SQL Server, JavaScript y desarrollo de APIs (SOAP y REST). Apasionado por la optimización de procesos y la creación de soluciones eficientes.</p>
+        <p>Ingeniero en informática con más de 8 años de experiencia en desarrollo full-stack. Especializado en **PHP, Laravel, WordPress, MySQL, SQL Server, JavaScript y desarrollo de APIs (SOAP y REST)**. Me apasiona la optimización de procesos y la creación de soluciones eficientes.</p>
     </section>
 
-    <section id="habilidades">
+    <section id="habilidades" class="container">
         <h2>Habilidades</h2>
+        <div class="skills">
+            <span>PHP</span>
+            <span>Laravel</span>
+            <span>WordPress</span>
+            <span>JavaScript</span>
+            <span>APIs REST/SOAP</span>
+            <span>MySQL</span>
+            <span>SQL Server</span>
+            <span>Optimización de procesos</span>
+        </div>
+    </section>
+
+    <section id="experiencia" class="container">
+        <h2>Experiencia</h2>
+        <p>He trabajado en diversos proyectos de desarrollo web y backend, implementando soluciones escalables para empresas y optimizando sistemas mediante la integración de APIs y bases de datos eficientes.</p>
+    </section>
+
+    <section id="proyectos" class="container">
+        <h2>Proyectos Destacados</h2>
         <ul>
-            <li>Desarrollo en PHP, Laravel y WordPress</li>
-            <li>Gestión de bases de datos MySQL y SQL Server</li>
-            <li>Programación en JavaScript y manejo de APIs REST/SOAP</li>
-            <li>Optimización de procesos y rendimiento de sistemas</li>
+            <li><a href="https://github.com/dannySanchez1212/proyecto1">Sistema de Gestión Empresarial</a></li>
+            <li><a href="https://github.com/dannySanchez1212/proyecto2">Plataforma de E-commerce</a></li>
+            <li><a href="https://github.com/dannySanchez1212/proyecto3">API para integración de datos</a></li>
         </ul>
     </section>
 
-    <section id="experiencia">
-        <h2>Experiencia</h2>
-        <p>He trabajado en proyectos de desarrollo web y backend, diseñando soluciones escalables para empresas y optimizando sistemas mediante la integración de APIs y bases de datos eficientes.</p>
-    </section>
-
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-        <p>Lista de proyectos con enlaces a GitHub y otras plataformas.</p>
-    </section>
-
-    <section id="contacto">
+    <section id="contacto" class="container">
         <h2>Contacto</h2>
         <p>Email: tuemail@example.com</p>
         <p>GitHub: <a href="https://github.com/dannySanchez1212">github.com/dannySanchez1212</a></p>
         <p>LinkedIn: <a href="https://linkedin.com/in/dannySanchez">linkedin.com/in/dannySanchez</a></p>
     </section>
+
+    <footer>
+        <p>&copy; 2025 Danny Sánchez - Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
